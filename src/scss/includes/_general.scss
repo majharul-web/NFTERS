@@ -45,7 +45,7 @@ i {
 }
 
 img {
-  display: block;
+  display: inline-block;
   max-width: 100%;
   height: auto;
 }
@@ -65,6 +65,15 @@ img {
 }
 .text-muted {
   color: var(--gray-color);
+}
+.text-success {
+  color: var(--success-color);
+}
+.text-danger {
+  color: var(--danger-color);
+}
+.text-info {
+  color: var(--info-color);
 }
 
 // btn
@@ -132,6 +141,9 @@ a {
 .fs-12 {
   font-size: 12px;
 }
+.fs-14 {
+  font-size: 14px;
+}
 
 // flexbox
 
@@ -150,6 +162,10 @@ a {
 .flexCenter {
   display: flex;
   justify-content: center;
+}
+
+.section-space {
+  padding: 6rem 0;
 }
 
 @media only screen and (min-width: 600px) {

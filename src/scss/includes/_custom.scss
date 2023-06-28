@@ -84,6 +84,44 @@ tr {
 
 // transaction-section  end -------------
 
+// top -collection-section  start -------------
+.sm-compass {
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  border: 0.1rem solid var(--success-color);
+}
+
+.top-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-middle.border-right {
+  border-right: 1px solid lightgray;
+}
+
+.top-collection-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .bottom-border {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .top-pro {
+    position: relative;
+    .checkMark {
+      position: absolute;
+      top: 0;
+      left: 70%;
+    }
+  }
+}
+
+// top -collection-section  end -------------
+
 // responsive ness start -------------
 @media only screen and (max-width: 1199px) {
   .off-form {
@@ -92,6 +130,16 @@ tr {
     .nav-btns {
       margin-top: 1rem;
     }
+  }
+}
+@media only screen and (max-width: 991px) {
+  .top-collection-section,
+  .top-middle {
+    align-items: flex-start;
+  }
+
+  .top-middle.border-right {
+    border-right: none;
   }
 }
 
