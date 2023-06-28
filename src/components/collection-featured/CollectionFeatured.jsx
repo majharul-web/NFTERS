@@ -26,7 +26,6 @@ const CollectionFeatured = () => {
             <div className="container-fluid">
                 <h2 className='section-title'>Collection Featured NFTs</h2>
                 <div className="row">
-
                     {
                         midImages.map((item) => <div className="col-md-4 my-3">
                             <div className='flex'>

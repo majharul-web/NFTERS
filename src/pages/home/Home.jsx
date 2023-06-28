@@ -4,6 +4,9 @@ import Transaction from '../../components/transaction/Transaction';
 import TopCollection from '../../components/top-collection/TopCollection';
 import CollectionFeatured from '../../components/collection-featured/CollectionFeatured';
 import Sell from '../../components/sell/Sell';
+import MoreNFTS from '../../components/more/MoreNFTS';
+
+
 
 
 
@@ -15,6 +18,7 @@ const Home = () => {
             <TopCollection />
             <CollectionFeatured />
             <Sell />
+            <MoreNFTS />
         </div>
     );
 };
