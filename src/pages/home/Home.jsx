@@ -1,12 +1,14 @@
 import React from 'react';
 import Appbar from '../../components/header/Navbar';
+import Transaction from '../../components/transaction/Transaction';
 
 
 
 const Home = () => {
     return (
-        <div className='container-fluid'>
+        <div >
             <Appbar />
+            <Transaction />
         </div>
     );
 };

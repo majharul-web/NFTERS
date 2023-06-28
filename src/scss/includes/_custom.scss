@@ -42,7 +42,7 @@ tr {
   font-weight: 500;
 }
 
-// booststrap customize start -------------
+// booststrap customize end -------------
 
 // header section start -------------
 
@@ -75,6 +75,14 @@ tr {
 }
 
 // header section end -------------
+
+// transaction-section  start -------------
+.transaction-section {
+  background-color: #d9e0ec;
+  padding: 3rem 0;
+}
+
+// transaction-section  end -------------
 
 // responsive ness start -------------
 @media only screen and (max-width: 1199px) {
