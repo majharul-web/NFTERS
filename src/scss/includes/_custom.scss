@@ -130,6 +130,14 @@ tr {
 
 // collection-featured-section  end -------------
 
+// sell-section  start -------------
+
+.sel-title {
+  width: 50%;
+}
+
+// sell-section  end -------------
+
 // responsive ness start -------------
 @media only screen and (max-width: 1199px) {
   .off-form {
@@ -148,6 +156,9 @@ tr {
 
   .top-middle.border-right {
     border-right: none;
+  }
+  .sel-title {
+    width: 100%;
   }
 }
 
