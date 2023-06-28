@@ -121,7 +121,7 @@ h5,
 h6,
 .h6 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.1;
   letter-spacing: -0.03em;
 }
@@ -166,6 +166,13 @@ a {
 
 .section-space {
   padding: 6rem 0;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 29px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 600px) {

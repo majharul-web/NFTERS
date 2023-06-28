@@ -2,6 +2,7 @@ import React from 'react';
 import Appbar from '../../components/header/Navbar';
 import Transaction from '../../components/transaction/Transaction';
 import TopCollection from '../../components/top-collection/TopCollection';
+import CollectionFeatured from '../../components/collection-featured/CollectionFeatured';
 
 
 
@@ -11,6 +12,7 @@ const Home = () => {
             <Appbar />
             <Transaction />
             <TopCollection />
+            <CollectionFeatured />
         </div>
     );
 };

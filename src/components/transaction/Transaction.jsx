@@ -21,7 +21,7 @@ const Transaction = () => {
             <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-md-4">
-                        <h2 className='text-uppercase pb-2'>The amazing NFT art of the world here</h2>
+                        <h2 className='section-title'>The amazing NFT art of the world here</h2>
                     </div>
                     {
                         trxData.map((trx) => <div className="col-md-4 py-2">

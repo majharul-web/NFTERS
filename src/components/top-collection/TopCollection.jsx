@@ -6,7 +6,7 @@ import ethereumImg from '../../assets/icon/ethereum.png'
 import ethereumSmImg from '../../assets/icon/ethereum-sm.png'
 import checkMark from '../../assets/icon/checkMark.png'
 import tm1Img from '../../assets/images/tm1.png'
-import tm2Img from '../../assets/images/tm1.png'
+import tm2Img from '../../assets/images/tm2.png'
 import tm3Img from '../../assets/images/tm3.png'
 import tpc1 from '../../assets/images/tpc1.png'
 import tpc2 from '../../assets/images/tpc2.png'
@@ -104,9 +104,9 @@ const TopCollection = () => {
                     <div className="col-md-4 top-collection-section py-3">
                         <div className=''>
                             <div className="mb-3">
-                                <h2 className='text-uppercase'>
+                                <h3 className='text-uppercase'>
                                     Top Collections over
-                                </h2>
+                                </h3>
                                 <p className='text-primary'>Last 7 days</p>
                             </div>
 
