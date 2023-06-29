@@ -4,7 +4,7 @@ import sellImg from '../../assets/images/sell.png'
 const Sell = () => {
     return (
         <div className='section-space'>
-            <div className="container-fluid">
+            <div className="container">
                 <div className='row aCenter'>
                     <div className="col-md-6">
                         <img src={sellImg} alt="" />

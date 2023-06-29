@@ -6,7 +6,7 @@ import { TiSocialLinkedinCircular } from 'react-icons/ti';
 const Footer = () => {
     return (
         <div className='section-space'>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <div className="col-md-4">
                         <div>

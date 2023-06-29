@@ -9,7 +9,7 @@ import { FaSearch } from 'react-icons/fa';
 const Appbar = () => {
     return (
         <Navbar key="xl" expand='xl' className="bg-body-tertiary my-2 header">
-            <Container fluid>
+            <Container >
                 <Navbar.Brand href="/" className='text-primary bold f-roboto' >NFTERS</Navbar.Brand>
                 <Navbar.Toggle className='custom-toggler' aria-controls={`offcanvasNavbar-expand-xl`} />
                 <Navbar.Offcanvas

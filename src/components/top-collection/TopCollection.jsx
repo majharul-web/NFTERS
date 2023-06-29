@@ -47,7 +47,7 @@ const TopCollection = () => {
     ]
     return (
         <div className='section-space'>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row aCenter flexBetween">
                     <div className="col-md-4 top-highest py-3">
                         <div className='flexCenter'>

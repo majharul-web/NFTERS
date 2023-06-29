@@ -76,6 +76,49 @@ tr {
 
 // header section end -------------
 
+// hero section start -------------
+.hero {
+  padding: 2rem 0 6rem 0;
+  .hero-content {
+    .hero-title {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+    }
+    p {
+      width: 80%;
+    }
+  }
+
+  .hero-img {
+    position: relative;
+    color: #fff;
+    .author {
+      position: absolute;
+      top: 7%;
+      left: 17%;
+    }
+    .hero-counter {
+      position: absolute;
+      bottom: 5%;
+      left: 18%;
+      .counter-bg-wrapper {
+        position: relative;
+        .counter-content {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          position: absolute;
+          top: 10%;
+          left: 5%;
+          right: 5%;
+        }
+      }
+    }
+  }
+}
+
+// hero section end -------------
+
 // transaction-section  start -------------
 .transaction-section {
   background-color: #d9e0ec;
@@ -148,7 +191,7 @@ tr {
     padding: 0.2rem 0.5rem;
     border-radius: 1.5rem;
     border: 0.1rem solid var(--theme-color);
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -228,6 +271,30 @@ tr {
   }
   .sel-title {
     width: 100%;
+  }
+
+  .counter-bg {
+    width: 80%;
+  }
+
+  .hero .hero-content p {
+    width: 100%;
+  }
+
+  .hero .hero-img .author {
+    h3 {
+      font-size: 14px !important;
+    }
+  }
+  .hero .hero-img .hero-counter .counter-bg-wrapper .counter-content {
+    top: 5%;
+    left: 2%;
+    right: 23%;
+    h4,
+    p,
+    span {
+      font-size: 11px !important;
+    }
   }
 }
 

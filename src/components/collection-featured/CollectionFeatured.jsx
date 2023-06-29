@@ -23,7 +23,7 @@ const CollectionFeatured = () => {
 
     return (
         <div className='collection-featured'>
-            <div className="container-fluid">
+            <div className="container">
                 <h2 className='section-title'>Collection Featured NFTs</h2>
                 <div className="row">
                     {

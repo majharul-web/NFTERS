@@ -1,14 +1,15 @@
 import React from 'react';
 import prImg1 from '../../assets/images/products/pr1.png';
 import ethereumSmImg from '../../assets/icon/ethereum-sm.png';
+import Timer from '../common/Timer';
 
 const MoreNFTS = () => {
     return (
         <div className='more-section'>
-            <div className="container-fluid">
+            <div className="container">
                 <h2 className="section-title">Discover more NFTs</h2>
 
-                <div className="row row-cols-1 row-cols-md-4 g-3">
+                <div className="row row-cols-1 row-cols-md-4 g-2">
                     <div className="col">
                         <div className="card p-2 " style={{ borderRadius: '1rem' }}>
                             <div>
@@ -25,7 +26,7 @@ const MoreNFTS = () => {
                                 </div>
                                 <hr />
                                 <div className='flexBetween aCenter'>
-                                    <p className='mb-0 place-time'>3h 50m 2s left</p>
+                                    <p className='mb-0 place-time aCenter'> <Timer /> <span className='ms-1'>left</span></p>
                                     <a href='#' className='text-primary fs-14' style={{ cursor: 'pointer' }}>Place a bid</a>
                                 </div>
                             </div>

@@ -6,6 +6,7 @@ import Sell from '../../components/sell/Sell';
 import MoreNFTS from '../../components/more/MoreNFTS';
 import Appbar from '../../components/common/header/Navbar';
 import Footer from '../../components/common/footer/Footer';
+import Hero from '../../components/hero/Hero';
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
     return (
         <div >
             <Appbar />
+            <Hero />
             <Transaction />
             <TopCollection />
             <CollectionFeatured />

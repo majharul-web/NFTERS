@@ -18,7 +18,7 @@ const Transaction = () => {
     ]
     return (
         <div className='transaction-section'>
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-4">
                         <h2 className='section-title'>The amazing NFT art of the world here</h2>
