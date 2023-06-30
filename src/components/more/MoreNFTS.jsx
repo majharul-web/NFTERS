@@ -1,107 +1,114 @@
 import React from 'react';
-import prImg1 from '../../assets/images/products/pr1.png';
-import ethereumSmImg from '../../assets/icon/ethereum-sm.png';
-import Timer from '../common/Timer';
+import pr1 from '../../assets/images/products/pr1.png';
+import pr2 from '../../assets/images/products/pr2.png';
+import pr3 from '../../assets/images/products/pr3.png';
+import pr4 from '../../assets/images/products/pr4.png';
+import Tabs from './Tabs';
+import NFTSCard from './NFTSCard';
+
 
 const MoreNFTS = () => {
+    const ntfersProducts = [
+        {
+            id: 1,
+            title: 'ArtCrypto',
+            image: pr1,
+        },
+        {
+            id: 2,
+            title: 'This NFT',
+            image: pr2,
+        },
+        {
+            id: 3,
+            title: 'NameCrypto',
+            image: pr3,
+        },
+        {
+            id: 4,
+            title: 'KingCrypto',
+            image: pr4,
+        },
+        {
+            id: 5,
+            title: 'ArtCrypto',
+            image: pr3,
+        },
+        {
+            id: 6,
+            title: 'This NFT',
+            image: pr4,
+        },
+        {
+            id: 7,
+            title: 'NameCrypto',
+            image: pr2,
+        },
+        {
+            id: 8,
+            title: 'KingCrypto',
+            image: pr1,
+        },
+        {
+            id: 9,
+            title: 'ArtCrypto',
+            image: pr1,
+        },
+        {
+            id: 10,
+            title: 'This NFT',
+            image: pr2,
+        },
+        {
+            id: 11,
+            title: 'NameCrypto',
+            image: pr3,
+        },
+        {
+            id: 12,
+            title: 'KingCrypto',
+            image: pr4,
+        },
+        {
+            id: 13,
+            title: 'ArtCrypto',
+            image: pr3,
+        },
+        {
+            id: 14,
+            title: 'This NFT',
+            image: pr4,
+        },
+        {
+            id: 15,
+            title: 'NameCrypto',
+            image: pr2,
+        },
+        {
+            id: 16,
+            title: 'KingCrypto',
+            image: pr1,
+        },
+    ];
+
     return (
         <div className='more-section'>
             <div className="container">
                 <h2 className="section-title">Discover more NFTs</h2>
 
-                <div className="row row-cols-1 row-cols-md-4 g-2">
-                    <div className="col">
-                        <div className="card p-2 " style={{ borderRadius: '1rem' }}>
-                            <div>
-                                <img style={{ width: '100%' }} src={prImg1} alt="" />
-                            </div>
-                            <div className='mt-3 card-body'>
-                                <h3>ArtCrypto</h3>
-                                <div className='flexBetween'>
-                                    <p className="ms-1 fs-12 mb-0 ">
-                                        <img src={ethereumSmImg} alt="not found" />
-                                        <span className="text-success ms-1">0.25 ETH</span>
-                                    </p>
-                                    <p className='ms-1 fs-12 mb-0 text-muted'>1 of 321</p>
-                                </div>
-                                <hr />
-                                <div className='flexBetween aCenter'>
-                                    <p className='mb-0 place-time aCenter'> <Timer /> <span className='ms-1'>left</span></p>
-                                    <a href='#' className='text-primary fs-14' style={{ cursor: 'pointer' }}>Place a bid</a>
-                                </div>
-                            </div>
-                        </div>
+                <section className="tabs">
+                    <Tabs />
+                    <div className="row row-cols-1 row-cols-md-4 g-2">
+
+                        {
+                            ntfersProducts.map((product) => <NFTSCard product={product} />)
+                        }
+
                     </div>
-                    <div className="col">
-                        <div className="card p-2 " style={{ borderRadius: '1rem' }}>
-                            <div>
-                                <img style={{ width: '100%' }} src={prImg1} alt="" />
-                            </div>
-                            <div className='mt-3 card-body'>
-                                <h3>ArtCrypto</h3>
-                                <div className='flexBetween'>
-                                    <p className="ms-1 fs-12 mb-0 ">
-                                        <img src={ethereumSmImg} alt="not found" />
-                                        <span className="text-success ms-1">0.25 ETH</span>
-                                    </p>
-                                    <p className='ms-1 fs-12 mb-0 text-muted'>1 of 321</p>
-                                </div>
-                                <hr />
-                                <div className='flexBetween aCenter'>
-                                    <p className='mb-0 place-time'>3h 50m 2s left</p>
-                                    <a href='#' className='text-primary fs-14' style={{ cursor: 'pointer' }}>Place a bid</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card p-2 " style={{ borderRadius: '1rem' }}>
-                            <div>
-                                <img style={{ width: '100%' }} src={prImg1} alt="" />
-                            </div>
-                            <div className='mt-3 card-body'>
-                                <h3>ArtCrypto</h3>
-                                <div className='flexBetween'>
-                                    <p className="ms-1 fs-12 mb-0 ">
-                                        <img src={ethereumSmImg} alt="not found" />
-                                        <span className="text-success ms-1">0.25 ETH</span>
-                                    </p>
-                                    <p className='ms-1 fs-12 mb-0 text-muted'>1 of 321</p>
-                                </div>
-                                <hr />
-                                <div className='flexBetween aCenter'>
-                                    <p className='mb-0 place-time'>3h 50m 2s left</p>
-                                    <a href='#' className='text-primary fs-14' style={{ cursor: 'pointer' }}>Place a bid</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card p-2 " style={{ borderRadius: '1rem' }}>
-                            <div>
-                                <img style={{ width: '100%' }} src={prImg1} alt="" />
-                            </div>
-                            <div className='mt-3 card-body'>
-                                <h3>ArtCrypto</h3>
-                                <div className='flexBetween'>
-                                    <p className="ms-1 fs-12 mb-0 ">
-                                        <img src={ethereumSmImg} alt="not found" />
-                                        <span className="text-success ms-1">0.25 ETH</span>
-                                    </p>
-                                    <p className='ms-1 fs-12 mb-0 text-muted'>1 of 321</p>
-                                </div>
-                                <hr />
-                                <div className='flexBetween aCenter'>
-                                    <p className='mb-0 place-time'>3h 50m 2s left</p>
-                                    <a href='#' className='text-primary fs-14' style={{ cursor: 'pointer' }}>Place a bid</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </section>
 
 
-                </div>
-                <div className='flexCenter py-4'>
+                <div className='flexCenter pt-5 pb-3'>
                     <button className='btn btn-primary'>More NFTs</button>
                 </div>
             </div>

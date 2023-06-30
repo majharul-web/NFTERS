@@ -195,6 +195,26 @@ tr {
   }
 }
 
+.tabs menu ul {
+  list-style: none;
+}
+
+.card-image {
+  position: relative;
+}
+
+.card-avatar-group {
+  position: absolute;
+  bottom: -25px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+
+  .card-avatar {
+    margin-right: -12px;
+  }
+}
+
 // more-section  end -------------
 
 // footer section start

@@ -91,6 +91,32 @@ img {
     color: #fff;
   }
 }
+.btn-secondary {
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+  border-radius: 2rem;
+  color: var(--dark-color);
+  transition: all 0.3s ease;
+  &:hover,
+  &:focus {
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+    color: #fff;
+  }
+}
+.btn-filter {
+  background-color: #dcdcdc;
+  border-color: #dcdcdc;
+  border-radius: 2rem;
+  color: var(--theme-color);
+  transition: all 0.3s ease;
+  &:hover,
+  &:focus {
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+    color: #fff;
+  }
+}
 
 .btn-primary-outline {
   background-color: transparent;
